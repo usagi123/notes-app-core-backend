@@ -1,5 +1,4 @@
-# NodeJS Backend version 1 for assignment 2 semester 3 2017
-
+# NodeJS Backend for iOS note taking app
 This is a CRUD of RestAPI using NodeJS and MongoDB as a backend.
 
 Make sure that you have the following libraries by running:
@@ -13,3 +12,15 @@ It will update the package.json and download required libraries
 
 Run as
 ```node app.js```
+
+Format
+```
+{
+	"name": "buy milk",
+	"content": "walnut milk",
+	"createdLocation": [10.7293386,106.69428629999993],
+	"calledLocation": [10.7290836, 106.7188731],
+	"createdTime": [2, "July", 2018],
+	"expiredTime": [9, "July", 2018]
+}
+```
